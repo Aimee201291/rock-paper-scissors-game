@@ -1,0 +1,75 @@
+body {
+    /*background: linear-gradient(#064E8D, #3FA0F7);*/
+    /*background: linear-gradient(45deg, #012B4F, #104D82);*/
+    background: #012B4F;
+}
+
+.weapon-title {
+    display: inline;
+}
+
+.badge {
+    width: 9rem;
+}
+
+.order-title {
+    color: white;
+}
+
+
+#circle1, #circle2 {
+    min-width: 100px;
+    max-width: 60%;
+    height: 100px;
+    background: #ffc107;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    font-weight: 600;
+    font-size: 2rem;
+    border: 3px solid rgb(155, 42, 14);
+}
+
+.fighters {
+    width: 100px;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container #circle1, #circle2, 
+.flex-container .fighters,
+.flex-container .middle-text {
+    font-size: 30px;
+}
+
+.middle-text {
+    color: white;
+    line-height: 100px;
+}
+
+.img-option {
+    min-width: 100px;
+    max-width: 60%;
+    cursor: pointer;
+}
+
+.img-box {
+    width: 60%;
+}
+
+.option-container {
+    border: 3px solid white;
+    border-radius: 30%;
+    /*background-color:rgba(110, 44, 0, .4);*/
+    background-color: rgba(23, 32, 42, .6); 
+}
+
+.option-container:hover {
+    /*background-color:rgba(110, 44, 0, .8);*/
+    background-color: rgb(23, 32, 42);
+    border: 3px solid rgb(23, 32, 42);
+}
